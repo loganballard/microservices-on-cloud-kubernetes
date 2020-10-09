@@ -2,11 +2,11 @@
 
 #GCP_PROJECT comes from external env var (for securitry reasons)
 export GCP_VERBOSITY='warning'
-export GCP_ZONE='us-central1-c'
+export GCP_ZONE='us-west1-c'
 export GKE_CHANNEL='rapid'
 export GKE_VERSION='1.18.6-gke.4801'
-export GKE_NODES=3
-export GKE_MACHINE='n1-standard-2'
+export GKE_NODES=2
+export GKE_MACHINE='n1-standard-1'
 export PROMETHEUS_NS='monitoring'
 export ISTIO_NS='istio-system'
 export ISTIO_VERSION=1.7.2
